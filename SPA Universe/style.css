@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: bottom center/cover no-repeat;
+    min-height: 100vh;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.home {
+    background-image: url(./image/mountains-universe-1\ 1.png);
+}
+
+.universe {
+    background-image: url(./image/mountains-universe-2.png);
+}
+
+.exploration {
+    background-image: url(./image/mountains-universe-3.png);
+}
+
+
+nav {
+    display: flex;
+    align-items: center; 
+    margin: 40px 72px;
+    gap: 32px;   
+    
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;    
+}
+
+ul li a {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 22px;  
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+ul li a:hover {
+   color: aqua;
+   cursor: pointer;  
+}
+
+.screen1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding-top: 172px;
+}
+
+.page1 {
+    font-size: 48px;    
+    color: #E1E1E6;
+    margin-bottom: 24px;
+}
+
+button {
+    padding: 12px 32px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    background: transparent;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: aqua;
+    color:black
+}
+
+.screen2 {
+    background-color: blue;
+}
+
+
+
