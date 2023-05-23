@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto:
 
-Nesse projeto utilizamos o conceito de SPA.   
+Nesse projeto trabalhamos o conceito de SPA.   
 
 
 Funcionalidades:
